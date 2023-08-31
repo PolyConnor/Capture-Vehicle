@@ -5,7 +5,7 @@ import os
 vehicle_cascade = cv2.CascadeClassifier('D:/My AIT Knowledge/Deep Learning Computer Vision/Lec1/HW_LEC1/haarcascade_car.xml')
 
 # Initialize the camera
-cap = cv2.VideoCapture("rtsp:ad")
+cap = cv2.VideoCapture(" rtsp:ad")
 #cap = cv2.VideoCapture("rtsp://admin")
 
 # Create a directory to save images
